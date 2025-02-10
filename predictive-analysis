@@ -1,0 +1,43 @@
+AI-Driven Taxi Time Prediction for Air Traffic Management
+Overview
+This project aims to optimize airport airside operations by accurately predicting aircraft taxiing times using machine learning techniques. By analyzing real-world flight data from Manchester International Airport, we assess the performance of Neural Networks (NN), Linear Regression (LR), and Adaptive Neuro-Fuzzy Inference Systems (ANFIS) for taxi time prediction.
+
+Key Features
+✔️ Data collection from OpenSky Network 📡
+✔️ Feature engineering & dimensionality reduction using PCA
+✔️ Implementation of ML models: NN, LR, and ANFIS 🤖
+✔️ Performance evaluation using RMSE, MAE, and MRE
+✔️ Insights for real-world air traffic management ✈️
+
+Methodology
+1️⃣ Data Collection & Preprocessing
+Gathered real-world aircraft taxiing data.
+Cleaned and pre-processed datasets for model suitability.
+Split data into training, validation, and testing sets.
+2️⃣ Feature Engineering & Dimensionality Reduction
+Extracted 25 key features related to operational factors, congestion levels, and aircraft speed.
+Applied Principal Component Analysis (PCA) to reduce dimensionality and improve computational efficiency.
+3️⃣ Machine Learning Model Implementation
+✅ Neural Network (NN): Backpropagation NN with optimized hidden layers.
+✅ Linear Regression (LR): Polynomial basis function modeling with order selection.
+✅ ANFIS: Hybrid learning using clustering-based fuzzy rule initialization.
+
+4️⃣ Model Comparison & Evaluation
+Evaluated models using RMSE, MAE, and MRE metrics.
+Assessed model generalization and robustness through statistical tests.
+Compared model transparency and interpretability for real-world applications.
+Results & Key Findings
+📊 Neural Networks: High predictive accuracy but required extensive tuning.
+📊 Linear Regression: Transparent model but struggled with complex interactions.
+📊 ANFIS: Balanced accuracy & interpretability with hybrid learning.
+
+Conclusion & Impact
+This study demonstrates the potential of AI in air traffic management by optimizing scheduling efficiency, reducing delays, and improving passenger experience. Machine learning-driven taxi time prediction can help airports enhance operations and minimize congestion effectively.
+
+Installation & Usage
+Requirements
+Python 3.x
+NumPy, Pandas, Scikit-learn, TensorFlow, ANFIS libraries
+
+Contributors
+👤 Aila Sheri – Lead Developer
