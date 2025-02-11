@@ -1,0 +1,32 @@
+# F1 Driver Analysis 🏎️  
+### Exploring the Origins & Performance of Formula 1 Drivers  
+
+## 📌 Project Overview  
+Formula 1 is the pinnacle of motorsports, featuring drivers from all over the world. This project analyzes which countries produce the most F1 drivers and which produce the best performers (based on qualifying positions). Using data from multiple sources, we visualize trends in driver nationality and performance.
+
+## 📊 Data & Methodology  
+We used **3 datasets** containing information on:  
+- 🏎️ **Constructors (F1 teams)** - Team names and country of origin  
+- 👨‍✈️ **Drivers** - Names, nationalities, and birthdates  
+- 🏁 **Qualifying Results** - Positions achieved in qualifying rounds  
+
+## 🛠️ Tools & Technologies  
+- **Python** (pandas, matplotlib, seaborn)  
+- **Jupyter Notebooks** for data exploration  
+- **Git & GitHub** for version control  
+
+## 📈 Key Insights  
+1. 🇬🇧 **Britain has produced the most F1 drivers** historically.  
+2. 🏆 **Top drivers (pole position holders) are from Britain, Finland, and Germany.**  
+3. 🌎 **F1 talent is globally distributed but dominated by European countries.**  
+
+## 🔍 Visualizations  
+### Most F1 Drivers by Country  
+![Most Drivers](results/most_drivers.png)  
+
+### Best F1 Drivers by Country  
+![Best Drivers](results/best_drivers.png)  
+
+## 📂 Repository Structure  
+- Project Description
+- Project report including code and visualizations
