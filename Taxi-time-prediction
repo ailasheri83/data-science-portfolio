@@ -1,6 +1,6 @@
 AI-Driven Taxi Time Prediction for Air Traffic Management
 Overview
-This project aims to optimize airport airside operations by accurately predicting aircraft taxiing times using machine learning techniques. By analyzing real-world flight data from Manchester International Airport, we assess the performance of Neural Networks (NN), Linear Regression (LR), and Adaptive Neuro-Fuzzy Inference Systems (ANFIS) for taxi time prediction.
+This group project aims to optimize airport airside operations by accurately predicting aircraft taxiing times using machine learning techniques. By analyzing real-world flight data from Manchester International Airport, we assess the performance of Neural Networks (NN), Linear Regression (LR), and Adaptive Neuro-Fuzzy Inference Systems (ANFIS) for taxi time prediction.
 
 Key Features
 ✔️ Data collection from OpenSky Network 📡
@@ -40,4 +40,4 @@ Python 3.x
 NumPy, Pandas, Scikit-learn, TensorFlow, ANFIS libraries
 
 Contributors
-👤 Aila Sheri – Lead Developer
+👤 Aila Sheri – Lead Developer for Neural Networks and Comparison between ML models
