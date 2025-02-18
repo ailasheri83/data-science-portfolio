@@ -21,11 +21,7 @@ We used **3 datasets** containing information on:
 3. 🌎 **F1 talent is globally distributed but dominated by European countries.**  
 
 ## 🔍 Visualizations  
-### Most F1 Drivers by Country  
-![Most Drivers](results/most_drivers.png)  
-
-### Best F1 Drivers by Country  
-![Best Drivers](results/best_drivers.png)  
+### Details in the Project report html file 
 
 ## 📂 Repository Structure  
 - Project Description
