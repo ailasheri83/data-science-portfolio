@@ -37,7 +37,7 @@ This study demonstrates the potential of AI in air traffic management by optimiz
 Installation & Usage
 Requirements
 Python 3.x
-NumPy, Pandas, Scikit-learn, TensorFlow, ANFIS libraries
+NumPy, Pandas, Neural Networks, Scikit-learn, TensorFlow, ANFIS libraries
 
 Contributors
 👤 Aila Sheri – Lead Developer for Neural Networks and Comparison between ML models
