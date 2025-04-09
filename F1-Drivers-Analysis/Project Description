@@ -2,7 +2,7 @@
 ### Exploring the Origins & Performance of Formula 1 Drivers  
 
 ## 📌 Project Overview  
-Formula 1 is the pinnacle of motorsports, featuring drivers from all over the world. This project analyzes which countries produce the most F1 drivers and which produce the best performers (based on qualifying positions). Using data from multiple sources, we visualize trends in driver nationality and performance.
+Formula 1 is the pinnacle of motorsports, featuring drivers from all over the world. This course project analyzes which countries produce the most F1 drivers and which produce the best performers (based on qualifying positions). Using data from multiple sources, we visualize trends in driver nationality and performance.
 
 ## 📊 Data & Methodology  
 We used **3 datasets** containing information on:  
