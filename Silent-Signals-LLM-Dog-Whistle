@@ -1,0 +1,58 @@
+ Silent Signals LLM Dog-Whistle Detection
+
+A research codebase for evaluating Large Language Models’ ability to detect and disambiguate coded political dog‐whistles using the Silent Signals dataset and Meta’s Llama 3.2 11B Vision Instruct Turbo.
+
+---
+
+🔍 Project Overview
+
+Political dog‐whistles—phrases with a hidden, audience-specific meaning—are notoriously hard for conventional NLP systems to spot. This project:
+
+1. **Detection**: Prompts Llama 3.2 11B Vision Turbo to decide whether each sentence contains a dog‐whistle.  
+2. **Disambiguation**: For each “root” whistle phrase, classifies individual sentences as coded (harmful) vs. innocent uses.  
+3. **Embedding Analysis**: Compares the model’s “coded meaning” outputs against human‐curated definitions using cosine similarity, L1, and L2 distances and with the LLMs DeepSeek R1 Distilled Llama 70B, Llama 3.3 70B Instruct, 
+Gemini 2.0 Flash.
+
+All code and notebooks live here in `Silent-Signals-LLM-Dog-Whistle'.
+
+👩‍💻 Aila Sheri’s Contributions:
+
+Prompt Engineering
+
+- Designed the tight “JSON-only” prompts that reliably elicit dog-whistle presence and coded-meaning outputs from Llama 3.2 11B Vision Turbo.
+
+Pipeline Development
+
+- Built the chunked detection loop to avoid rate-limits and parse JSON safely via regex.
+
+- Implemented the per-root disambiguation routine, grouping sentences by “dog_whistle_root” and classifying coded vs. innocent usages.
+
+Evaluation & Analysis
+
+- Automated calculation of Accuracy, Precision, Recall, and F1 metrics for detection.
+
+- Applied Sentence-Transformer embeddings to quantify semantic alignment (cosine, L1, L2) between model-generated meanings and human definitions.
+
+Documentation & Reproducibility
+
+- Authored this README and guided environment setup to ensure team members can reproduce experiments seamlessly.
+
+📈 Key Findings:
+
+Detection: Llama 3.2 Vision Turbo achieved ~72 % accuracy (F1 ≈ 0.73) on the Silent Signals detection task.
+
+Disambiguation: Model reliably separates innocent vs. coded uses for many root phrases, though some sensitive terms required sub‐batching and lower temperature to avoid moderation refusals.
+
+Semantic Alignment: Average cosine similarity between LLM meanings and human definitions was ~0.65, indicating good—but improvable—alignment.
+
+
+🤝 Acknowledgments: 
+
+Dataset: SALT-NLP Silent Signals Detection Corpus
+
+Model: Meta Llama 3.2 11B Vision Instruct Turbo via Together.ai
+
+Team: Aila Sheri (LLM engineering & analysis for Llama 3.2 11B Vision Turbo), Alan Wu, Emma Carrier , Charlotte Zhao
+
+
+
