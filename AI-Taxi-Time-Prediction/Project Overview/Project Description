@@ -36,7 +36,7 @@ This study demonstrates the potential of AI in air traffic management by optimiz
 
 Installation & Usage
 Requirements
-Python 3.x
+Python 
 NumPy, Pandas, Neural Networks, Scikit-learn, TensorFlow, ANFIS libraries
 
 Contributors
